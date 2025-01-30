@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ming Xia/Desktop/MyAndroid/455FinalProject/app/src/main/res/layout/activity_addnote.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Ming Xia/Desktop/MyAndroid/455FinalProject/app/src/main/res/layout/activity_listnote.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Ming Xia/Desktop/MyAndroid/455FinalProject/app/src/main/res/layout/activity_main.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Ming Xia/Desktop/MyAndroid/455FinalProject/app/src/main/res/layout/activity_note.xml" value="0.5177083333333333" />
+        <entry key="..\:/Users/Ming Xia/Desktop/MyAndroid/455FinalProject/app/src/main/res/layout/activity_noteadd.xml" value="0.2869791666666667" />
+        <entry key="..\:/Users/Ming Xia/Desktop/MyAndroid/455FinalProject/app/src/main/res/layout/activity_notelist.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Ming Xia/Desktop/MyAndroid/455FinalProject/app/src/main/res/layout/recycler_view_item.xml" value="0.353125" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

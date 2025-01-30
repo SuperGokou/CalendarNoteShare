@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewNotesBtn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/layout_bg"
+        android:gravity="center"
+        android:text="Calendar App"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp" />
+
+    <CalendarView
+        android:id="@+id/tempView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/layout_bg"
+        android:dateTextAppearance="@style/CalenderViewDateCustomText"
+        android:gravity="center_vertical"
+        android:weekDayTextAppearance="@style/CalenderViewWeekCustomText" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/gotoaddNoteView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="#35B7FF"
+        android:text="Add Note" />
+
+    <Button
+        android:id="@+id/goToViewNotes"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#35B7FF"
+        android:text="View Notes" />
+
+    <Button
+        android:id="@+id/logOut"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#35B7FF"
+        android:text="Logout" />
+
+</LinearLayout>

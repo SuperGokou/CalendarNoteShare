@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111">
+
+    <TextView
+        android:id="@+id/itemNote"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:background="@drawable/layout_bg"
+
+        tools:text="Title" />
+
+    <TextView
+        android:id="@+id/itemNoteContent"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:layout_below="@+id/itemNote"
+        android:textColor="@color/white"
+        android:background="@drawable/layout_bg"
+        tools:text="Note Contents"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/itemNoteDate"
+        android:layout_below="@+id/itemNoteContent"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@color/darkGray"
+        android:textColor="@color/white"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="18dp"
+        tools:text="Month-Day-Year" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_below="@+id/itemNoteDate"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/blue"
+        android:text="Back"  />
+
+</RelativeLayout>
